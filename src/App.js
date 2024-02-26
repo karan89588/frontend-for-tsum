@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
+import Homepage from "./component/homepage";
+import Ytsum from "./summarizer/ytsum";
+import Audiosum from "./summarizer/audiosum";
+import Pdfsum from "./summarizer/pdfsum";
+import Wordsum from "./summarizer/wordsum";
+import Txtsum from "./summarizer/txtsum";
+import Txtpastesum from "./summarizer/txtpastesum";
+import Dialoguesum from "./summarizer/dialoguesum";
+import Newssum from "./summarizer/newssum";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Routes>
+      <Route path="/" element={<Homepage />}></Route>
+      <Route path="/youtubeSummary" element={<Ytsum />}></Route>
+      <Route path="/audioSummary" element={<Audiosum />}></Route>
+      <Route path="/pdfSummary" element={<Pdfsum />}></Route>
+      <Route path="/wordSummary" element={<Wordsum />}></Route>
+      <Route path="/txtSummary" element={<Txtsum />}></Route>
+      <Route path="/txtpasteSummary" element={<Txtpastesum />}></Route>
+      <Route path="/dialogueSummary" element={<Dialoguesum />}></Route>
+      <Route path="/newsTitle" element={<Newssum />}></Route>
+    </Routes>
   );
 }
 

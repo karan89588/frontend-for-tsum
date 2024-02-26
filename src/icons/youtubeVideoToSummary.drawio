@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net" modified="2024-02-17T10:57:32.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="kj-HDh2GP8s0dDu1kFUy" version="23.1.5" type="device">
+  <diagram name="Page-1" id="HdUN9-gPR-PCufoS-LfW">
+    <mxGraphModel dx="880" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1Om9cDp7ImGvVMg-8xmj-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Youtube&lt;br&gt;Video&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e21d12;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="190" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Om9cDp7ImGvVMg-8xmj-2" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.4;arrowSize=0.4;rounded=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Om9cDp7ImGvVMg-8xmj-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Summary Text&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="430" y="160" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
